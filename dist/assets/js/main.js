@@ -32,7 +32,13 @@ var t = 0;
 var run = function () {
   for (x = 0; x <= 35; x++) {
     for (y = 0; y <= 35; y++) {
-      col(x, y, R(x, y, t), G(x, y, t), B(x, y, t));
+      col(
+        x,
+        y,
+        R(x - 20, y - 20, t),
+        G(x - 20, y - 20, t),
+        B(x + 70, y + 70, t)
+      );
     }
   }
   t = t + 0.075;
