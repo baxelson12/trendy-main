@@ -41,7 +41,7 @@ var run = function () {
       );
     }
   }
-  t = t + 0.075;
+  t = t + 0.05;
   window.requestAnimationFrame(run);
 };
 
